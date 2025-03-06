@@ -1,13 +1,13 @@
 ﻿int[] array = [1, 2, 3, 4, 5];
 
-Console.WriteLine($"O(1): {array[0]}");
+Console.WriteLine($"O(1): {array[0]}"); // O(1)
 
 // É O(1) quando:
 
-// Não tem laços de repetição
-// Acessos direto a elementos
-// Operações mateḿaticas simples
-// Uso de estruturas de dados eficientes (métodos de busca, inserção, remoção são geralmente O(1))
+// Não tem laços de repetição.
+// Acessos direto a elementos.
+// Operações mateḿaticas simples.
+// Uso de estruturas de dados eficientes (métodos de busca, inserção, remoção são geralmente O(1)).
 
 var ages = new Dictionary<string, int>
 {
@@ -20,7 +20,7 @@ var ages = new Dictionary<string, int>
 ages["Diana"] = 28; // O(1)
 Console.WriteLine($"Idade da Diana: {ages["Diana"]}");
 
-// Acessando um elemento com método Add()
+// Adicionando um novo elemento com método Add()
 ages.Add("Charlie", 40); // O(1)
 Console.WriteLine($"Idade do Charlie: {ages["Charlie"]}");
 
