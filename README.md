@@ -7,7 +7,7 @@ Este repositório contém exemplos de algoritmos que demonstram diferentes compl
 O repositório está organizado da seguinte forma:
 
 ```plaintext
-SortingAlgorithms/
+BigO/
 └── src/
     ├── Constant
     ├── Exponential
