@@ -53,12 +53,13 @@ static int BinarySearch(int[] array, int target) // O(log n) - Logarítmica
         if (array[middle] < target)
         {
             left = middle + 1;
-            continue;
         }
-        
-        right = middle - 1;
+        else
+        {
+            right = middle - 1;
+        }
     }
-    
+
     Console.WriteLine($"Iterações: {count}");
     return -1;
 }
