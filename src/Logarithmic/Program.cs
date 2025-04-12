@@ -1,10 +1,8 @@
 ﻿using System.Diagnostics;
 
-// É O(log n) quando:
-
-// Divide o problema em partes menores.
-// A complexidade de tempo é logarítmica, ou seja, cresce de forma logarítmica em relação ao tamanho da entrada.
-// Exemplo: busca binária.
+// Complexidade O(log n): o algoritmo divide o problema pela metade a cada iteração, reduzindo o tempo de execução
+// proporcionalmente ao logaritmo do tamanho da entrada.  
+// Exemplo clássico: busca binária em arrays ordenados. 
 
 var array = new int[100_000];
 FillArray(array);

@@ -1,13 +1,10 @@
-﻿int[] array = [1, 2, 3, 4, 5];
+﻿// Complexidade O(1): o tempo de execução é constante e independente do tamanho da entrada, pois a operação acessa
+// diretamente o elemento ou realiza uma única ação atômica.
+// Exemplo clássico: acesso a índices em arrays ou operações em hash tables.
+
+int[] array = [1, 2, 3, 4, 5];
 
 Console.WriteLine($"O(1): {array[0]}"); // O(1)
-
-// É O(1) quando:
-
-// Não tem laços de repetição.
-// Acessos direto a elementos.
-// Operações mateḿaticas simples.
-// Uso de estruturas de dados eficientes (métodos de busca, inserção, remoção são geralmente O(1)).
 
 var ages = new Dictionary<string, int>
 {
@@ -33,6 +30,3 @@ if (ages.ContainsKey("Alice")) // O(1)
 {
     Console.WriteLine("Alice está no dicionário.");
 }
-
-// O(1) é a complexidade de tempo mais eficiente que existe. Significa que o algoritmo é constante, independentemente
-// do tamanho da entrada.
