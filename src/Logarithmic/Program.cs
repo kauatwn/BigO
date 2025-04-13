@@ -15,7 +15,7 @@ int result = BinarySearch(array, target);
 stopwatch.Stop();
 
 Console.WriteLine($"Resultado da busca: {result}");
-Console.WriteLine($"Tempo de execução: {stopwatch.ElapsedMilliseconds}ms");
+Console.WriteLine($"Tempo total de execução: {stopwatch.ElapsedMilliseconds:N0}ms");
 
 return;
 
