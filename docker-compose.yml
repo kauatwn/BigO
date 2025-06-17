@@ -1,0 +1,49 @@
+services:
+  constant:
+    build:
+      context: .
+      args:
+        PROJECT_NAME: Constant
+    image: bigo-constant:dev
+
+  exponential:
+    build:
+      context: .
+      args:
+        PROJECT_NAME: Exponential
+    image: bigo-exponential:dev
+
+  factorial:
+    build:
+      context: .
+      args:
+        PROJECT_NAME: Factorial
+    image: bigo-factorial:dev
+
+  linear:
+    build:
+      context: .
+      args:
+        PROJECT_NAME: Linear
+    image: bigo-linear:dev
+
+  loglinear:
+    build:
+      context: .
+      args:
+        PROJECT_NAME: LogLinear
+    image: bigo-loglinear:dev
+
+  logarithmic:
+    build:
+      context: .
+      args:
+        PROJECT_NAME: Logarithmic
+    image: bigo-logarithmic:dev
+
+  quadratic:
+    build:
+      context: .
+      args:
+        PROJECT_NAME: Quadratic
+    image: bigo-quadratic:dev
