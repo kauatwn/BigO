@@ -44,18 +44,6 @@ git clone https://github.com/kauatwn/BigO.git
     docker compose run --rm <complexity>
     ```
 
-### Complexidades disponíveis:
-
-| Docker `<complexity>` | Projeto `<project>` |
-| --------------------- | ------------------- |
-| `constant`            | `Constant`          |
-| `exponential`         | `Exponential`       |
-| `factorial`           | `Factorial`         |
-| `linear`              | `Linear`            |
-| `loglinear`           | `LogLinear`         |
-| `logarithmic`         | `Logarithmic`       |
-| `quadratic`           | `Quadratic`         |
-
 ### Executar Localmente com .NET SDK
 
 1. Navegue até o diretório do projeto correspondente (veja a tabela abaixo):
@@ -75,6 +63,18 @@ git clone https://github.com/kauatwn/BigO.git
     ```bash
     dotnet run
     ```
+
+### Complexidades disponíveis:
+
+| Docker `<complexity>` | Projeto `<project>` |
+| --------------------- | ------------------- |
+| `constant`            | `Constant`          |
+| `exponential`         | `Exponential`       |
+| `factorial`           | `Factorial`         |
+| `linear`              | `Linear`            |
+| `loglinear`           | `LogLinear`         |
+| `logarithmic`         | `Logarithmic`       |
+| `quadratic`           | `Quadratic`         |
 
 ## Estrutura do Projeto
 
